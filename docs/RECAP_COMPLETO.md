@@ -30,17 +30,14 @@ Creare un'alternativa gratuita e personalizzabile a Telegram Premium con:
 ## 🔧 Scelte Tecniche e Motivazioni
 
 ### 1. **Python + AsyncIO**
-**Perché**: Gestione asincrona nativa per migliaia di utenti simultanei
-**Beneficio**: Performance superiori, codice più leggibile
+**Perché**: Gestione asincrona nativa per migliaia di utenti simultanei **Beneficio**: Performance superiori, codice più leggibile
 
 ### 2. **Database Dual-Mode**
 - **Sviluppo**: SQLite (zero configuration)
-- **Produzione**: PostgreSQL (scalabilità enterprise)
-**Beneficio**: Sviluppo rapido + produzione robusta
+- **Produzione**: PostgreSQL (scalabilità enterprise) **Beneficio**: Sviluppo rapido + produzione robusta
 
 ### 3. **Ambiente Virtuale (.venv)**
-**Perché**: Isolamento dipendenze, riproducibilità
-**Impatto Docker**: 
+**Perché**: Isolamento dipendenze, riproducibilità **Impatto Docker**:
 - ✅ Multi-stage build più efficiente
 - ✅ Cache layer ottimizzato  
 - ✅ Immagini finali più piccole (< 200MB)
